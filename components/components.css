@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import "./avatar.css";
+@import "./badge.css";
+
+:root {
+    --color-primary:#FFF8E7;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
 }

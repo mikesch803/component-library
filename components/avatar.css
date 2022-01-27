@@ -23,7 +23,7 @@
 }
 
 .avatar-txt {
-    background-color: #FFF8E7;
+    background-color: var(--color-primary);
 }
 
 .avatar-ls {
