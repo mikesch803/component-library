@@ -3,7 +3,9 @@
 @import "./badge.css";
 
 :root {
-    --color-primary:#FFF8E7;
+    --COLOR-PRIMARY:#FFF8E7;
+    --COLOR-ONLINE: yellowgreen;
+    --COLOR-WHITE:white;
 }
 
 * {
@@ -14,6 +16,6 @@
 }
 
 body {
-    max-width: 900px;
+    max-width: 56.25rem;
     margin: auto;
 }
