@@ -1,45 +1,44 @@
-
-.avatar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
 .avatar-with-text,
 .avatar-with-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin:1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
 }
 
-.circle-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.avatar-txt {
-    background-color: var(--color-primary);
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .avatar-ls {
-width: 5rem;
-height: 5rem;
-font-size: 2.5rem;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2.5rem;
 }
 
 .avatar-ms {
-width: 3rem;
-height: 3rem;
-font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
 }
 
 .avatar-ss {
-width: 2rem;
-height: 2rem;
-font-size: 1rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.circle-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-txt {
+  background-color: var(--color-primary);
 }
