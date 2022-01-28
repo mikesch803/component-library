@@ -1,12 +1,11 @@
 .img-resp {
-    /* max-width: 56.25rem; */
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .img-round-resp {
-    border-radius: 50%;
-    object-fit: cover;
-    width: 14rem;
-     height: 14rem;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 14rem;
+  height: 14rem;
 }
