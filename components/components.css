@@ -4,6 +4,8 @@
 
 :root {
     --COLOR-PRIMARY:#FFF8E7;
+    --COLOR-SECONDARY:#241623;
+    --COLOR-BLACK:black;
     --COLOR-ONLINE: yellowgreen;
     --COLOR-WHITE:white;
 }
