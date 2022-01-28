@@ -3,6 +3,7 @@
 @import "./badge.css";
 @import "./alert.css";
 @import "./button.css";
+@import "./card.css";
 
 :root {
     --COLOR-PRIMARY:#FFF8E7;
@@ -19,6 +20,8 @@
     --COLOR-WARNING:#713F12;
     --COLOR-DANGER:#7F1D1D;
     --COLOR-SUCCESS:#14532D;
+    --COLOR-GREY:#7e818c;
+    --BOX-SHADOW:0 0 5px var(--COLOR-GREY);
 }
 
 * {
