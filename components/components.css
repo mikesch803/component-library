@@ -22,9 +22,8 @@
     --COLOR-WARNING:#713F12;
     --COLOR-DANGER:#7F1D1D;
     --COLOR-SUCCESS:#14532D;
-    --COLOR-GREY:#7e818c;
-    --COLOR-RED:red;
-    --BOX-SHADOW:0 0 5px var(--COLOR-GREY);
+    --COLOR-ERROR:red;
+    --BOX-SHADOW:0 0 5px black;
 }
 
 * {

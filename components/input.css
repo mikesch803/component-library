@@ -6,7 +6,7 @@
 }
 
 .form-error {
-    color: var(--COLOR-RED);
+    color: var(--COLOR-ERROR);
     margin-bottom: 0.5rem;
 }
 
