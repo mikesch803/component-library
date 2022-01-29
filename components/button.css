@@ -7,6 +7,7 @@
 }
 
 .btn-primary {
+    text-transform: uppercase;
     background-color: var(--COLOR-PRIMARY);
     color: var(--COLOR-SECONDARY);
 }
@@ -17,6 +18,7 @@
 }
 
 .btn-secondary {
+    text-transform: uppercase;
     border: 1px solid var(--COLOR-SECONDARY);
 }
 
@@ -26,6 +28,7 @@
 }
 
 .btn-link {
+    text-transform: uppercase;
     text-decoration: none;
     color: var(--COLOR-SECONDARY);
 }

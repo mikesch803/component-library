@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&display=swap');
 @import "./avatar.css";
 @import "./badge.css";
 @import "./alert.css";
@@ -8,7 +8,8 @@
 @import "./input.css";
 
 :root {
-    --COLOR-PRIMARY:#FFF8E7;
+    /* --COLOR-PRIMARY:#FFF8E7; */
+    --COLOR-PRIMARY:#f5dca0;
     --COLOR-LINK:#CD9141;
     --COLOR-SECONDARY:#241623;
     --COLOR-BLACK:black;

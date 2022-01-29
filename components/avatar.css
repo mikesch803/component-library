@@ -1,5 +1,5 @@
-.avatar-with-text,
-.avatar-with-img {
+.avatar-text,
+.avatar-img {
   display: flex;
   justify-content: center;
   align-items: center;
