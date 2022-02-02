@@ -12,13 +12,12 @@
 @import "../utility/padding.css";
 
 :root {
-    /* --COLOR-PRIMARY:#FFF8E7; */
     --COLOR-PRIMARY:#f5dca0;
     --COLOR-LINK:#CD9141;
     --COLOR-SECONDARY:#241623;
-    --COLOR-BLACK:black;
     --COLOR-ONLINE: yellowgreen;
     --COLOR-WHITE:white;
+    --COLOR-BLACK:black;
     --BG-SUCCESS:#4ADE80;
     --BG-DANGER:#F87171;
     --BG-WARNING:#FACC15;
@@ -51,6 +50,3 @@ li {
     list-style: none;
 }
 
-.iconify {
-    font-size: 1.5rem;
-}
