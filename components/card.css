@@ -32,10 +32,6 @@
   margin-bottom: 0.5rem;
 }
 
-.card-price-line-through {
-  text-decoration: line-through;
-}
-
 .card-cart,
 .card-wishlist {
     padding-left: 1rem;

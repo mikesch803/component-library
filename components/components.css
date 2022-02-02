@@ -6,6 +6,10 @@
 @import "./card.css";
 @import "./image.css";
 @import "./input.css";
+@import "./navbar.css";
+@import "../utility/flex.css";
+@import "../utility/margin.css";
+@import "../utility/padding.css";
 
 :root {
     /* --COLOR-PRIMARY:#FFF8E7; */
@@ -37,4 +41,16 @@
 body {
     max-width: 56.25rem;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.iconify {
+    font-size: 1.5rem;
 }
