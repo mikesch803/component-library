@@ -7,6 +7,7 @@
   background-color: var(--COLOR-PRIMARY);
   padding: 0.2rem 0.5rem;
   font-size: 0.8rem;
+  color: var(--COLOR-FT);
 }
 
 .badge-str {

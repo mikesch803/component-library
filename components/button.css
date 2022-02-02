@@ -9,12 +9,12 @@
 
 .btn-primary {  
     background-color: var(--COLOR-PRIMARY);
-    color: var(--COLOR-SECONDARY);
+    color: var(--COLOR-FT);
 }
 
 .btn-primary:hover {
     background-color: var(--COLOR-SECONDARY);
-    color: var(--COLOR-PRIMARY);
+    color: var(--COLOR-FT);
 }
 
 .btn-secondary {
@@ -23,7 +23,7 @@
 
 .btn-secondary:hover {
     background-color: var(--COLOR-SECONDARY);
-    color: var(--COLOR-WHITE);
+    color: var(--COLOR-FT);
 }
 
 .btn-link {

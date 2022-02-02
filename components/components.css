@@ -12,16 +12,17 @@
 @import "../utility/padding.css";
 
 :root {
-    --COLOR-PRIMARY:#f5dca0;
-    --COLOR-LINK:#CD9141;
+    --COLOR-PRIMARY:#A855F7;
+    --COLOR-LINK:#581C87;
     --COLOR-SECONDARY:#241623;
     --COLOR-ONLINE: yellowgreen;
-    --COLOR-WHITE:white;
+    --COLOR-FT:white;
     --COLOR-BLACK:black;
     --BG-SUCCESS:#4ADE80;
     --BG-DANGER:#F87171;
     --BG-WARNING:#FACC15;
     --BG-INFO:#60A5FA;
+    --BG-BODY:rgb(250, 249, 249);
     --COLOR-INFO:#1E3A8A;
     --COLOR-WARNING:#713F12;
     --COLOR-DANGER:#7F1D1D;
@@ -40,6 +41,7 @@
 body {
     max-width: 56.25rem;
     margin: auto;
+    background-color: var(--BG-BODY);
 }
 
 a {
