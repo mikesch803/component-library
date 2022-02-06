@@ -22,10 +22,8 @@
 
 .navbar-input {
   border: none;
-  padding: 0.5rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
   outline: none;
-  padding-left: 0.5rem;
-  padding-right: 2rem;
 }
 
 .navbar-wishlist-icon,
