@@ -4,8 +4,9 @@
 }
 
 .img-round-resp {
+  aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
-  width: 14rem;
-  height: 14rem;
+  max-width: 14rem;
+  max-height: 14rem;
 }

@@ -27,9 +27,7 @@
 
 .card-price,
 .card-mrp {
-  font-size: 0.8rem;
-  font-weight: 300;
-  margin-top: 0.5rem;
+  font-weight: 400;
   margin-bottom: 0.5rem;
 }
 
@@ -64,9 +62,14 @@
 .card-badge-pos {
   color: var(--COLOR-FT);
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 5px;
+  top: 5px;
   margin: 0.5rem;
+}
+
+
+.card-dismis-btn {
+  color: var(--COLOR-ERROR);
 }
 
 .card-badge-pos {
@@ -96,8 +99,8 @@
 }
 
 .card-img-hz {
-    width: 16rem;
-    height: 16rem;
+    width: 10rem;
+    height: 10rem;
 } 
 
 .card-btns {

@@ -34,17 +34,37 @@
     </div>
 
     <!-- badge component -->
-    <h2>badges</h2>
-    <span class="iconify badge-icon-size" data-icon="whh:notificationbottom"
-            data-inline="false"></span><span class="badge badge-str badge-pos-icon">8</span>
+    <h2>badge with icons</h2>
+    <a href="/" class="bg btn btn-link">
+        <span class="iconify bg-icon" data-icon="zmdi:shopping-cart" data-inline="false"></span><span
+            class="bg-num">7</span></a>
+    <a href="/" class="bg btn btn-link">
+        <span class="iconify bg-icon" data-icon="mdi:home" data-inline="false"></span><span class="bg-num">7</span></a>
+    <a href="/" class="bg btn btn-link">
+        <span class="iconify bg-icon" data-icon="mdi:cards-heart-outline" data-inline="false"></span><span
+            class="bg-num">7</span></a>
+    <a href="/" class="bg btn btn-link">
+        <span class="iconify bg-icon" data-icon="mdi:cards-heart" data-inline="false"></span><span
+            class="bg-num">7</span></a>
 
-    <p>Text with badge<span class="badge badge-str badge-pos-txt">8</span></p>
-    
-    <div class="avatar avatar-ms">
+    <h2>avatar with badge</h2>
+    <div class="bg avatar avatar-ms">
         <img src="./assest/images/avatar-img.jpg" alt="avatar" class="circle-img"><span
-            class="badge-str badge-pos-avtar badge-avatar"></span>
+            class="bg-avatar bg-online"></span>
+    </div>
+    <div class="bg avatar avatar-ms">
+        <img src="./assest/images/avatar-img.jpg" alt="avatar" class="circle-img"><span
+            class="bg-avatar bg-offline"></span>
     </div>
 
+    <h2>text with badge</h2>
+    <h1>heading h1<span class="bg-txt">new</span></h1>
+    <h2>heading h2<span class="bg-txt">new</span></h2>
+    <h3>heading h3<span class="bg-txt">new</span></h3>
+    <h4>heading h4<span class="bg-txt">new</span></h4>
+    <h5>heading h5<span class="bg-txt">new</span></h5>
+    <h6>heading h6<span class="bg-txt">new</span></h6>
+    <p>paragraph<span class="bg-txt">new</span></p>
     <!-- alert component -->
     <h2>alerts</h2>
     <div class="alert alert-primary">This is primary alert!</div>
@@ -55,32 +75,40 @@
 
     <!-- btn component -->
     <h2>buttons</h2>
-    <button class="btn btn-primary">primary</button>
-    <button class="btn btn-secondary">secondary</button>
-    <a href="#" class="btn btn-link">link</a>
-    <a href="#" class="btn btn-icon"><span class="iconify" data-icon="zmdi:shopping-cart"
-            data-inline="false"></span></a>
-    <button class="btn btn-float"><span class="iconify" data-icon="mdi:plus-circle" data-inline="false"></span></button>
+    <div class="component-container">
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-outline">secondary</button>
+        <a href="#" class="btn btn-link">link</a>
+        <a href="#" class="btn "><span class="iconify btn-icon" data-icon="zmdi:shopping-cart"
+                data-inline="false"></span></a>
+        <button class="btn "><span class="iconify btn-float" data-icon="mdi:plus-circle"
+                data-inline="false"></span></button>
+    </div>
+    <!-- large small btn -->
+    <button class="btn btn-primary btn-ls">primary</button>
+    <button class="btn btn-primary btn-ss">primary</button>
 
     <!-- card component -->
     <h2>card component</h2>
 
     <div class="card card-vrt">
-        <div class="card-img-container"><img class="card-img" src="./assest/images/peanut-product.jpg" alt="peanut-butter">
+        <div class="card-img-container"><img class="card-img" src="./assest/images/peanut-product.jpg"
+                alt="peanut-butter">
         </div>
         <div class="card-desc">
             <h3>Peanut butter</h3>
             <p>by American Garden</p><span class="card-price">Rs 499</span><span><del class="card-mrp">Rs
-                999</del>
-            <div class="card-btns">
-                <button class="card-cart btn btn-primary">add to cart</button><button
-                    class="card-wishlist btn btn-secondary">wishlist</button>
-            </div>
+                    999</del>
+                <div class="card-btns">
+                    <button class="card-cart btn btn-primary">add to cart</button><button
+                        class="card-wishlist btn btn-outline">wishlist</button>
+                </div>
         </div>
     </div>
 
     <div class="card card-vrt card-txt-overlay">
-        <div class="card-img-container"><img class="card-img" src="./assest/images/peanut-product.jpg" alt="peanut-butter">
+        <div class="card-img-container"><img class="card-img" src="./assest/images/peanut-product.jpg"
+                alt="peanut-butter">
         </div>
         <div class="card-desc card-desc-pos">
             <h3>Peanut butter</h3>
@@ -89,30 +117,32 @@
     </div>
 
     <div class="card card-vrt card-dismis">
-        <div class="card-img-container"><img class="card-img" src="./assest/images/peanut-product.jpg" alt="peanut-butter">
+        <div class="card-img-container"><img class="card-img" src="./assest/images/peanut-product.jpg"
+                alt="peanut-butter">
         </div>
         <div class="card-desc">
             <h3>Peanut butter</h3>
             <p>by American Garden</p><span class="card-price">Rs 499</span><del class="card-mrp">Rs
-                 999</del>
+                999</del>
             <div class="card-btns">
                 <button class="card-cart btn btn-primary">add to cart</button><button
-                    class="card-wishlist btn btn-secondary">wishlist</button>
+                    class="card-wishlist btn btn-outline">wishlist</button>
             </div>
         </div>
         <span class="iconify card-dismis-btn" data-icon="mdi:close" data-inline="false"></span>
     </div>
 
     <div class="card card-vrt card-badge">
-        <div class="card-img-container"><img class="card-img" src="./assest/images/peanut-product.jpg" alt="peanut-butter">
+        <div class="card-img-container"><img class="card-img" src="./assest/images/peanut-product.jpg"
+                alt="peanut-butter">
         </div>
         <div class="card-desc">
             <h3>Peanut butter</h3>
             <p>by American Garden</p><span class="card-price">Rs 499</span><del class="card-mrp">Rs
-                 999</del>
+                999</del>
             <div class="card-btns">
                 <button class="card-cart btn btn-primary">add to cart</button><button
-                    class="card-wishlist btn btn-secondary">wishlist</button>
+                    class="card-wishlist btn btn-outline">wishlist</button>
             </div>
         </div>
         <span class="card-badge-pos">new</span>
@@ -138,10 +168,10 @@
         <div class="card-desc">
             <h3>Peanut butter</h3>
             <p>by American Garden</p><span class="card-price">Rs 499</span><del class="card-mrp">Rs
-                 999</del>
+                999</del>
             <div class="card-btns card-btns-hz">
                 <button class="card-cart btn btn-primary ">add to cart</button><button
-                    class="card-wishlist btn btn-secondary">wishlist</button>
+                    class="card-wishlist btn btn-outline">wishlist</button>
             </div>
         </div>
     </div>
@@ -153,37 +183,22 @@
 
     <!-- input component -->
     <h3>form component</h3>
-    <div class="form">
-        <input type="text" placeholder="username" class="form-input">
-        <input type="text" placeholder="password" class="form-input">
-        <button class="btn btn-primary form-btn">login</button>
-    </div>
-
+    <form class="form">
+        <label>textarea</label>
+        <textarea class="input-textarea"></textarea>
+    </form>
     <!-- input component -->
-    <div class="form">
-        <input type="text" placeholder="username" required class="form-input">
+    <form class="form">
+        <label>Email</label>
+        <input type="text" required class="form-input">
         <small class="form-error">required</small>
-        <input type="text" placeholder="password" required class="form-input">
+        <label>Password</label>
+        <input type="text" required class="form-input">
         <small class="form-error">required</small>
         <button class="btn btn-primary form-btn">login</button>
-    </div>
+    </form>
 
     <!-- p0 completed -->
-
-    <!-- nav component -->
-    <h3>navbar component</h3>
-    <div class="navbar flex-center flex-space-around flex-wrap p-8">
-        <h1 class="navbar-title">Fit Store</h1>
-        <div class="navbar-search flex-center p-l-8">
-        <input type="text" placeholder="search..." class="navbar-input p-hz-8 p-r-32 "><span class="iconify" data-icon="bx:bx-search" data-inline="false"></span>
-    </div>
-        <div class="nav-icons flex-center flex-space-around flex-wrap">
-            <a href="#" class="btn btn-link navbar-login">login</a>
-            <a class="navbar-wishlist p-8" href="#"><span class="iconify navbar-icon" data-icon="mdi:cards-heart-outline" data-inline="false"></span></a>
-            <a class="btn btn-icon p-8" href="#"><span class="iconify navbar-icon" data-icon="zmdi:shopping-cart"
-                data-inline="false"></span></a>
-            
-        </div>
     </div>
 </body>
 
