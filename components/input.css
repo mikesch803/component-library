@@ -19,6 +19,6 @@
 }
 
 .input-textarea {
-    width: 25rem;
-    height: 10rem;
+    max-width: 25rem;
+    max-height: 10rem;
 }
