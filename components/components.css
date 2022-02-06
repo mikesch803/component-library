@@ -10,6 +10,7 @@
 @import "../utility/flex.css";
 @import "../utility/margin.css";
 @import "../utility/padding.css";
+@import "./text-utlities.css";
 
 :root {
   --COLOR-PRIMARY: #a222e3;
