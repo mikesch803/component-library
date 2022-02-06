@@ -1,21 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @import "./avatar.css";
 @import "./badge.css";
+@import "./alert.css";
+@import "./button.css";
+@import "./card.css";
+@import "./image.css";
+@import "./input.css";
+@import "./navbar.css";
+@import "../utility/flex.css";
+@import "../utility/margin.css";
+@import "../utility/padding.css";
 
 :root {
-    --COLOR-PRIMARY:#FFF8E7;
+    --COLOR-PRIMARY: #a222e3;
+    --COLOR-PRIMARY-DARK:#581C87;
+    --COLOR-SECONDARY:#737373;
+    --COLOR-OFFLINE:#adabab;
     --COLOR-ONLINE: yellowgreen;
-    --COLOR-WHITE:white;
+    --COLOR-FT:white;
+    --COLOR-BLACK:black;
+    --BG-SUCCESS:#4ADE80;
+    --BG-DANGER:#fda3a3;
+    --BG-WARNING:#FACC15;
+    --BG-INFO:#87b9f7;
+    --BG-BODY:rgb(250, 249, 249);
+    --COLOR-INFO:#1E3A8A;
+    --COLOR-WARNING:#713F12;
+    --COLOR-DANGER:#7F1D1D;
+    --COLOR-SUCCESS:#14532D;
+    --COLOR-ERROR:red;
+    --BOX-SHADOW:0 0 5px black;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    max-width: 56.25rem;
-    margin: auto;
+    background-color: var(--BG-BODY);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
