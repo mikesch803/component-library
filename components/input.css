@@ -17,3 +17,8 @@
 .form-btn {
     margin-top: 0.5rem;
 }
+
+.input-textarea {
+    width: 25rem;
+    height: 10rem;
+}

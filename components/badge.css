@@ -1,31 +1,43 @@
-.badge-icon-size {
-  width: 2rem;
-  height: 2rem;
-}
-
-.badge {
-  background-color: var(--COLOR-PRIMARY);
-  padding: 0.2rem 0.5rem;
-  font-size: 0.8rem;
-  color: var(--COLOR-FT);
-}
-
-.badge-str {
-  border-radius: 50%;
+.bg {
   position: relative;
 }
 
-.badge-pos-icon {
-  top: -1.5rem;
-  left: -1rem;
+.bg-icon {
+  font-size: 1.5rem;
+  color: var(--COLOR-SECONDARY);
 }
 
-.badge-pos-avtar {
-  top: 1rem;
-  left: -1rem;
+.bg-num {
+  position: absolute;
+  top: -0.563rem;
+  background-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-FT);
+  padding: 0 0.35rem 0;
+  border-radius: 50%;
+  left: 1.3rem;
+}
+
+.bg-avatar {
+  position: absolute;
+  top: 2.1rem;
+  right: -0.05rem;
+  border: 2px solid var(--COLOR-FT);
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+.bg-online {
   background-color: var(--COLOR-ONLINE);
-  border: 2px solid var(--COLOR-WHITE);
-  padding: 0.3rem;
-  width: 0.3rem;
-  height: 0.3rem;
+}
+
+.bg-offline {
+  background-color: var(--COLOR-OFFLINE);
+}
+
+.bg-txt {
+  background-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-FT);
+  border-radius: 5px;
+  padding: 0 0.5rem 0;
 }

@@ -5,7 +5,7 @@
 
 .alert-primary {
     background-color: var(--COLOR-PRIMARY);
-    color: var(--COLOR-SECONDARY);
+    color: var(--COLOR-FT);
 }
 
 .alert-warning {
@@ -27,6 +27,3 @@
     background-color: var(--BG-INFO);
     color:var(--COLOR-INFO);
 }
-
-
-

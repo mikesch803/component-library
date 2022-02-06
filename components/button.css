@@ -10,36 +10,36 @@
 .btn-primary {  
     background-color: var(--COLOR-PRIMARY);
     color: var(--COLOR-FT);
+    border: 1px solid var(--COLOR-PRIMARY);
 }
 
 .btn-primary:hover {
-    background-color: var(--COLOR-SECONDARY);
-    color: var(--COLOR-FT);
+    background-color: var(--COLOR-PRIMARY-DARK);
+    border: 1px solid var(--COLOR-PRIMARY-DARK);
 }
 
-.btn-secondary {
-    border: 1px solid var(--COLOR-SECONDARY);
+.btn-outline {
+    border: 1px solid var(--COLOR-PRIMARY);
+    color: var(--COLOR-PRIMARY);
 }
 
-.btn-secondary:hover {
-    background-color: var(--COLOR-SECONDARY);
+.btn-outline:hover {
+    background-color: var(--COLOR-PRIMARY-DARK);
     color: var(--COLOR-FT);
+    border: 1px solid var(--COLOR-PRIMARY-DARK);
 }
 
 .btn-link {
-
-    text-decoration: none;
-    color: var(--COLOR-SECONDARY);
+    color: var(--COLOR-PRIMARY);
 }
 
 .btn-link:hover {
-    color:var(--COLOR-LINK)
+    color:var(--COLOR-PRIMARY-DARK)
 }
 
 .btn-float,
 .btn-icon {
-    display: flex;
-    align-items: center;
+    color: var(--COLOR-PRIMARY);
 }
 
 .btn-icon {
@@ -48,5 +48,20 @@ font-size: 1.5rem;
 
 .btn-float {
     font-size: 3rem;
-    color: var(--COLOR-SECONDARY);
 }
+
+.btn-ls {
+    font-size: 1.25rem;
+}
+
+.btn-ss {
+    font-size: 0.875rem;
+}
+
+.component-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+  }
