@@ -1,0 +1,49 @@
+.navbar,
+.navbar-title,
+.navbar-search,
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.navbar {
+  background-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-FT);
+  padding: 0.5rem;
+}
+
+.navbar-search {
+  border-radius: 10px;
+  background: var(--COLOR-FT);
+  padding-left: 0.5rem;
+}
+
+.navbar-input {
+  border: none;
+  padding: 0.5rem;
+  outline: none;
+  padding-left: 0.5rem;
+  padding-right: 2rem;
+}
+
+.navbar-wishlist-icon,
+.navbar-cart-icon {
+  font-size: 1.5rem;
+  color: var(--COLOR-FT);
+}
+
+.navbar-search-icon {
+  font-size: 1.5rem;
+  color: var(--COLOR-BLACK);
+}
+
+.navbar-icons {
+  gap: 1rem;
+}
+
+.navbar-login {
+  background-color: var(--COLOR-FT);
+  color: var(--COLOR-PRIMARY);
+}
