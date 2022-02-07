@@ -1,0 +1,37 @@
+.unorder-list-circle {
+    list-style-type: circle;
+}
+
+.unorder-list-sqr {
+    list-style-type: square;
+}
+
+.m-2 {
+    margin-left: 2rem;
+}
+
+.order-list-roman {
+    list-style-type: lower-roman;
+}
+
+.order-list-alphabet {
+    list-style-type: lower-alpha;
+}
+
+.stack-list-container {
+    max-width: 30rem;
+    border: 1px solid var(--COLOR-SECONDARY);
+    color: var(--COLOR-SECONDARY);
+}
+
+.stack-list {
+    list-style-type: none;
+}
+
+.stack-list li {
+    padding: 0.5rem;
+    border: 1px solid;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
