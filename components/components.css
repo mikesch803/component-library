@@ -11,6 +11,8 @@
 @import "../utility/margin.css";
 @import "../utility/padding.css";
 @import "./text-utlities.css";
+@import "./list.css";
+@import "./rating.css";
 
 :root {
   --COLOR-PRIMARY: #a222e3;
@@ -30,6 +32,7 @@
   --COLOR-DANGER: #7f1d1d;
   --COLOR-SUCCESS: #14532d;
   --COLOR-ERROR: red;
+  --COLOR-RATING-FILL : #16A34A;
   --BOX-SHADOW: 0 0 5px black;
 }
 
@@ -48,6 +51,3 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-}
