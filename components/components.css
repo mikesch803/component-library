@@ -13,6 +13,8 @@
 @import "./text-utlities.css";
 @import "./list.css";
 @import "./rating.css";
+@import "./modal.css";
+@import "./grid-simplified.css";
 
 :root {
   --COLOR-PRIMARY: #a222e3;
