@@ -1,7 +1,6 @@
 .modal {
     max-width: 30rem;
     max-height: 20rem;
-    /* border: 1px solid; */
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -11,3 +10,6 @@
     background-color: var(--COLOR-FT);
 }
 
+.btn-modal-close {
+    cursor: pointer;
+}
