@@ -126,7 +126,7 @@
                     class="card-wishlist btn btn-outline">wishlist</button>
             </div>
         </div>
-        <span class="iconify card-dismis-btn" data-icon="mdi:close" data-inline="false"></span>
+        <span class="card-dismis-btn" >&times</span>
     </div>
 
     <div class="card card-vrt card-badge">
@@ -306,9 +306,38 @@
     <span class="iconify rating-fill" data-icon="mdi:star" data-inline="false"></span>
     <span class="iconify rating-fill" data-icon="mdi:star" data-inline="false"></span>
 </div>
-
     <span class="rating-num">5<span class="iconify" data-icon="mdi:star" data-inline="false"></span></span>
 
-</body>
+<!-- modal -->
+<h3>modal</h3>
+<div class="modal card-dismis">
+    <p class="ft-w-500">Remove item</p>
+    <p class="ft-w-500 ft-grey">Are you sure you want to remove the item?</p>
+    <div>
+    <button class="btn btn-primary">remove</button>
+    <button class="btn btn-outline">cancel</button>
+    <span class="card-dismis-btn btn-modal-close">&times;</span>
+    </div>
+</div>
+    <button class="btn btn-primary btn-modal-open">open modal</button>
 
-</html>
+    <h3>grid-simplified</h3>
+    <div class="grid-container">
+        <div class="col-left txt-center">item 1</div>
+        <div class="col-right txt-center">item 2</div>
+    </div>
+    <br>
+    <div class="grid-container">
+        <div class="col-left txt-center">item 1</div>
+        <div class="col-mid txt-center">item 3</div>
+        <div class="col-right txt-center">item 2</div>  
+    </div>
+      <br>  
+    <div class="grid-container-row-col">
+        <div class="row-1 txt-center">item 1</div>
+        <div class="col-1 txt-center">item 2</div>
+        <div class="col-2 txt-center"> item 3</div>
+    </div>
+        <script src="./modal.js"></script>   
+        </body>
+</html> 

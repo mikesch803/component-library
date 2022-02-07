@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 1rem;
+}
+
+.col-left,
+.col-right,
+.col-mid,
+.row-1,
+.col-1,
+.col-2 {
+    border: 2px solid;
+}
+
+.grid-container-row-col {
+    margin: 1rem;
+    display: grid;
+    grid-template-areas: "row1 row1 row1 row1"
+                         "col1 col1 col2 col2"; 
+}
+
+.row-1 {
+    grid-area: row1;
+}
+
+.col-1 {
+    grid-area: col1;
+}
+
+.col-2 {
+    grid-area: col2;
+}
