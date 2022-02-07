@@ -2,7 +2,7 @@ const openToastBtn = document.querySelector("#toast-btn");
 const toastMsg = document.querySelector("#toast-msg");
 
 const openToastHandler = () => {
-    toastMsg.style.display = "block";
+    toastMsg.style.display = "center";
     setTimeout(()=>{
         toastMsg.style.display = "none"
     },2500)
