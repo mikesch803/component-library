@@ -7,13 +7,11 @@ containerModal.style.display = "none";
 const openModelHandler = () => {
     containerModal.style.display = "flex";
     btnModalOpen.style.display = "none";
-    console.log(true)
 }
 
 const closeModelHandler = () => {
     containerModal.style.display = "none";
     btnModalOpen.style.display = "block";
-    console.log(true)
 }
 
 btnModalOpen.addEventListener("click", openModelHandler)

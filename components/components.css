@@ -7,14 +7,12 @@
 @import "./image.css";
 @import "./input.css";
 @import "./navbar.css";
-@import "../utility/flex.css";
-@import "../utility/margin.css";
-@import "../utility/padding.css";
 @import "./text-utlities.css";
 @import "./list.css";
 @import "./rating.css";
 @import "./modal.css";
 @import "./grid-simplified.css";
+@import "./toast.css";
 
 :root {
   --COLOR-PRIMARY: #a222e3;

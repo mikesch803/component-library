@@ -1,0 +1,13 @@
+.toast {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid var(--COLOR-SECONDARY);
+    max-width: 30rem;
+    justify-content: center;
+    display: none;
+}
+
+.toast-close-btn {
+    margin-left: auto;
+    font-size: larger;
+}
