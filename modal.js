@@ -2,6 +2,8 @@ const containerModal = document.querySelector(".modal");
 const btnModalOpen = document.querySelector(".btn-modal-open");
 const btnModalClose = document.querySelector(".btn-modal-close");
 
+containerModal.style.display = "none";
+
 const openModelHandler = () => {
     containerModal.style.display = "flex";
     btnModalOpen.style.display = "none";
