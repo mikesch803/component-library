@@ -10,8 +10,11 @@
 
 .navbar {
   background-color: var(--COLOR-PRIMARY);
-  color: var(--COLOR-FT);
   padding: 0.5rem;
+}
+
+.navbar-title {
+  color: var(--COLOR-FT);
 }
 
 .navbar-search {
@@ -34,7 +37,6 @@
 
 .navbar-search-icon {
   font-size: 1.5rem;
-  color: var(--COLOR-BLACK);
 }
 
 .navbar-icons {
