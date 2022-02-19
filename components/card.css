@@ -2,7 +2,7 @@
   border-radius: 5px;
   overflow: hidden;
   background-color: var(--COLOR-FT);
-  border: 1px solid var(--COLOR-BLACK);
+  border: 1px solid;
 }
 
 .card-vrt {
@@ -33,8 +33,7 @@
 
 .card-cart,
 .card-wishlist {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    flex: 1;
 }
 
 .card:hover {
@@ -81,7 +80,7 @@
 }
 
 .card-txt {
-  border: 1px solid var(--COLOR-BLACK);
+  border: 1px solid;
 }
 
 .card-txt-icons {
