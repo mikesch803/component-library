@@ -1,5 +1,5 @@
 .toast {
-    border-radius: 0.5rem;
+    border-radius: var(--BORDER-RADIUS);
     padding: 0.5rem;
     border: 1px solid var(--COLOR-SECONDARY);
     max-width: 30rem;

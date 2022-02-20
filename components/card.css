@@ -1,5 +1,5 @@
 .card {
-  border-radius: 5px;
+  border-radius: var(--BORDER-RADIUS);
   overflow: hidden;
   background-color: var(--COLOR-FT);
   border: 1px solid;

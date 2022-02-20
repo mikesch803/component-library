@@ -1,7 +1,7 @@
 .modal {
     max-width: 30rem;
     max-height: 20rem;
-    border-radius: 5px;
+    border-radius: var(--BORDER-RADIUS);
     display: flex;
     flex-direction: column;
     gap: 2rem;
