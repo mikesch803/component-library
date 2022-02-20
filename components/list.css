@@ -6,10 +6,6 @@
     list-style-type: square;
 }
 
-.m-2 {
-    margin-left: 2rem;
-}
-
 .order-list-roman {
     list-style-type: lower-roman;
 }
@@ -22,6 +18,7 @@
     max-width: 30rem;
     border: 1px solid var(--COLOR-SECONDARY);
     color: var(--COLOR-SECONDARY);
+    background-color: var(--BG-BODY);
 }
 
 .stack-list {
